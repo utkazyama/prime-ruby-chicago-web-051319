@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-if num<0 || num==0 || num==1
+if num<0 or num==0 or num==1
   return FALSE
 else 
   (2..num-1).to.a_all? do |possible_factor|
